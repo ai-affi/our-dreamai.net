@@ -156,30 +156,89 @@
   },
   "creation_panel": {
     "title": "How Does OurDream AI Work?",
-    "subtitle": "Create your dream companion in minutes with our advanced AI character creator.",
-    "steps": [
-      {"number": "1", "title": "Choose Art Style", "description": "Realistic or Anime — pick the visual style for your companion."},
-      {"number": "2", "title": "Design Appearance", "description": "Customize face, body type, hair color/style, clothing, and accessories."},
-      {"number": "3", "title": "Set Personality", "description": "Define traits, interests, communication style, and relationship dynamics."},
-      {"number": "4", "title": "Configure Voice", "description": "Choose voice type and speaking style for immersive conversations."},
-      {"number": "5", "title": "Start Chatting", "description": "Your companion is ready. Begin unlimited conversations and watch them evolve."}
+    "subtitle": "Create your dream AI girlfriend in minutes. Choose every detail — from ethnicity to personality.",
+    "cta": "Create Your Dream AI Girlfriend →",
+    "cta_sub": "Free to start. No credit card required.",
+    "wizard_steps": [
+      {
+        "step": "1",
+        "title": "Choose Your AI Girlfriend",
+        "subtitle": "Real or Anime",
+        "options": ["Realistic", "Anime"],
+        "next_cta": "Next →"
+      },
+      {
+        "step": "2",
+        "title": "Origin",
+        "subtitle": "Select ethnicity",
+        "options": ["Asian", "Black", "White", "Latina", "Arab", "Indian", "Elf", "Alien", "Demon", "Custom (PREMIUM)"],
+        "next_cta": "Next →"
+      },
+      {
+        "step": "3",
+        "title": "Skin Tone",
+        "subtitle": "Choose complexion",
+        "options": ["Fair", "Light", "Medium", "Tan", "Dark", "Ebony"],
+        "next_cta": "Next →"
+      },
+      {
+        "step": "4",
+        "title": "Eye Color",
+        "subtitle": "Select eye color",
+        "options": ["Blue", "Green", "Brown", "Hazel", "Gray", "Amber", "Violet", "Red"],
+        "next_cta": "Next →"
+      },
+      {
+        "step": "5",
+        "title": "Hair Color",
+        "subtitle": "Choose hair color",
+        "options": ["Blonde", "Brunette", "Black", "Red", "Pink", "Blue", "Purple", "White", "Silver"],
+        "next_cta": "Next →"
+      },
+      {
+        "step": "6",
+        "title": "Hairstyle",
+        "subtitle": "Select hairstyle",
+        "options": ["Braided", "Long", "Bangs", "Ponytail", "Short", "Bun", "Buns", "Wavy", "Pixie", "Custom (PREMIUM)"],
+        "next_cta": "Next →"
+      },
+      {
+        "step": "7",
+        "title": "Body Type",
+        "subtitle": "Choose build",
+        "options": ["Slim", "Athletic", "Voluptuous", "Curvy", "Muscular"],
+        "next_cta": "Next →"
+      },
+      {
+        "step": "8",
+        "title": "Bust Size",
+        "subtitle": "Select bust size",
+        "options": ["Flat", "Small", "Medium", "Large", "XL"],
+        "next_cta": "Next →"
+      },
+      {
+        "step": "9",
+        "title": "Booty Size",
+        "subtitle": "Choose booty size",
+        "options": ["Small", "Petite", "Athletic", "Medium", "Large"],
+        "next_cta": "Next →"
+      }
     ],
-    "features": [
-      {"icon": "✏️", "label": "Name", "desc": "Give your companion a unique name"},
-      {"icon": "⚧", "label": "Gender", "desc": "Female, Male, or Non-binary"},
-      {"icon": "🎨", "label": "Art Style", "desc": "Realistic or Anime"},
-      {"icon": "🔢", "label": "Age", "desc": "Set your companion's age"},
-      {"icon": "🏃", "label": "Body Type", "desc": "Slim, Athletic, Curvy, etc."},
-      {"icon": "💇", "label": "Hair Color", "desc": "Any color you imagine"},
-      {"icon": "✂️", "label": "Hair Style", "desc": "Long, short, wavy, straight"},
-      {"icon": "👁️", "label": "Eye Color", "desc": "Unique eye colors"},
-      {"icon": "👗", "label": "Clothing", "desc": "Outfits and accessories"},
-      {"icon": "🧠", "label": "Personality", "desc": "Traits and behavior"},
-      {"icon": "🎙️", "label": "Voice Type", "desc": "Speaking style and tone"},
-      {"icon": "💕", "label": "Relationship", "desc": "Dynamic and role"}
-    ],
-    "cta": "Create Your Dream Companion →",
-    "cta_sub": "Free to start. No credit card required."
+    "personality_panel": {
+      "title": "Character Details",
+      "fields": [
+        {"icon": "✏️", "label": "Character Name", "placeholder": "Charlotte Vixen", "example": "Charlotte Vixen"},
+        {"icon": "🔢", "label": "Age", "placeholder": "21", "example": "21"},
+        {"icon": "📝", "label": "Personality Details", "placeholder": "Click to edit", "example": "Shy but secretly wild"},
+        {"icon": "🎙️", "label": "Voice", "placeholder": "ASMR", "example": "ASMR"},
+        {"icon": "🌸", "label": "Personality", "placeholder": "Shy", "example": "Shy"},
+        {"icon": "💃", "label": "Occupation", "placeholder": "Stripper", "example": "Stripper"},
+        {"icon": "🔥", "label": "Relationship", "placeholder": "Fling", "example": "Fling"},
+        {"icon": "🎮", "label": "Hobby", "placeholder": "No hobby defined", "example": "Gaming"},
+        {"icon": "😈", "label": "Fetish", "placeholder": "No fetish defined", "example": "Roleplay"}
+      ],
+      "advanced_label": "Advanced Details (Optional)"
+    }
   },
   "pricing": {
     "title": "Choose Your Dream Plan",

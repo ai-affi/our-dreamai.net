@@ -124,15 +124,11 @@
       <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-center" id="creation-title"></h2>
       <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto" id="creation-subtitle"></p>
       
-      <div class="grid lg:grid-cols-2 gap-8 mb-12">
-        <div id="creation-steps" class="space-y-4"></div>
-        <div class="bg-gray-950 border border-gray-800 rounded-2xl p-6">
-          <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
-            <span>🎛️</span> Character Creation Panel
-          </h3>
-          <div id="creation-features" class="grid grid-cols-2 gap-3"></div>
-        </div>
-      </div>
+      <!-- Wizard Steps -->
+      <div id="wizard-container" class="mb-12"></div>
+      
+      <!-- Personality Panel -->
+      <div id="personality-panel" class="bg-gray-950 border border-gray-800 rounded-2xl p-6 mb-12"></div>
       
       <div class="text-center">
         <a href="/go/ourdream" class="affiliate-link cta-pulse inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-lg rounded-xl hover:from-pink-600 hover:to-purple-600 transition transform hover:scale-105 shadow-lg shadow-pink-500/30" rel="nofollow noreferrer noopener" id="creation-cta"></a>
@@ -259,23 +255,45 @@ fetch('/content.json')
       charsGrid.innerHTML += '<div class="char-card"><div class="overflow-hidden bg-gradient-to-br from-pink-900/30 to-purple-900/30 flex items-center justify-center"><img src="' + p.image + '" alt="' + p.alt + '" class="char-img" loading="lazy" decoding="async" width="' + p.width + '" height="' + p.height + '" /></div><div class="p-5"><div class="flex items-center gap-2 mb-1"><h3 class="font-bold text-lg text-white">' + p.name + '</h3><span class="text-gray-500 text-sm">' + p.age + '</span><span class="text-lg">' + p.flag + '</span></div><p class="text-pink-400 text-sm mb-2">' + p.tagline + '</p><p class="text-gray-500 text-sm mb-3 line-clamp-3">' + p.description + '</p><div class="flex flex-wrap mb-3">' + tags + '</div><div class="flex justify-between text-sm text-gray-600 mb-4"><span>💬 ' + p.chats + ' chats</span><span>❤️ ' + p.likes + ' likes</span></div><a href="/go/ourdream" class="affiliate-link block text-center py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white text-sm font-semibold rounded-lg hover:from-pink-600 hover:to-purple-600 transition" rel="nofollow noreferrer noopener">' + p.cta + '</a></div></div>';
     });
 
-    // Creation Panel section
+    // Creation Panel section - Wizard
     if (c.creation_panel) {
       document.getElementById('creation-title').innerHTML = c.creation_panel.title.replace('OurDream AI', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">OurDream AI</span>');
       document.getElementById('creation-subtitle').textContent = c.creation_panel.subtitle;
-      
-      const stepsDiv = document.getElementById('creation-steps');
-      c.creation_panel.steps.forEach(s => {
-        stepsDiv.innerHTML += '<div class="bg-gray-950 border border-gray-800 rounded-xl p-5 flex gap-4"><div class="flex-shrink-0 w-10 h-10 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 flex items-center justify-center text-lg font-bold">' + s.number + '</div><div><h4 class="font-bold text-white mb-1">' + s.title + '</h4><p class="text-gray-500 text-sm">' + s.description + '</p></div></div>';
-      });
-      
-      const featuresDiv = document.getElementById('creation-features');
-      c.creation_panel.features.forEach(f => {
-        featuresDiv.innerHTML += '<div class="bg-gray-900 rounded-lg p-3 border border-gray-800"><div class="flex items-center gap-2 mb-1"><span class="text-lg">' + f.icon + '</span><span class="text-sm font-semibold text-white">' + f.label + '</span></div><p class="text-xs text-gray-500">' + f.desc + '</p></div>';
-      });
-      
       document.getElementById('creation-cta').textContent = c.creation_panel.cta;
       document.getElementById('creation-cta-sub').textContent = c.creation_panel.cta_sub;
+      
+      // Wizard Steps
+      const wizardDiv = document.getElementById('wizard-container');
+      c.creation_panel.wizard_steps.forEach((step, idx) => {
+        const isLast = idx === c.creation_panel.wizard_steps.length - 1;
+        const optionsHtml = step.options.map(opt => {
+          const isPremium = opt.includes('PREMIUM');
+          return '<button class="relative px-4 py-2 rounded-lg border border-gray-700 bg-gray-900 text-gray-300 text-sm hover:border-pink-500 hover:text-pink-400 transition ' + (isPremium ? 'border-yellow-600/50 text-yellow-500' : '') + '"' + (isPremium ? ' disabled' : '') + '>' + opt + (isPremium ? ' <span class="absolute -top-2 -right-2 bg-yellow-500 text-black text-[10px] font-bold px-1.5 py-0.5 rounded">PREMIUM</span>' : '') + '</button>';
+        }).join('');
+        
+        wizardDiv.innerHTML += '<div class="mb-8">' +
+          '<div class="flex items-center gap-3 mb-4">' +
+            '<div class="w-8 h-8 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 flex items-center justify-center text-sm font-bold">' + step.step + '</div>' +
+            '<div><h4 class="font-bold text-white">' + step.title + '</h4><p class="text-gray-500 text-sm">' + step.subtitle + '</p></div>' +
+          '</div>' +
+          '<div class="flex flex-wrap gap-2 ml-11">' + optionsHtml + '</div>' +
+          (isLast ? '' : '<div class="ml-11 mt-3"><span class="text-pink-400 text-sm">' + step.next_cta + '</span></div>') +
+        '</div>';
+      });
+      
+      // Personality Panel
+      const panelDiv = document.getElementById('personality-panel');
+      const pp = c.creation_panel.personality_panel;
+      let fieldsHtml = pp.fields.map(f => {
+        return '<div class="bg-gray-900 rounded-lg p-4 border border-gray-800">' +
+          '<div class="flex items-center gap-2 mb-2"><span class="text-lg">' + f.icon + '</span><span class="text-sm font-semibold text-white">' + f.label + '</span></div>' +
+          '<div class="text-sm text-pink-400">' + f.example + '</div>' +
+        '</div>';
+      }).join('');
+      
+      panelDiv.innerHTML = '<h3 class="text-lg font-bold text-white mb-4">' + pp.title + '</h3>' +
+        '<div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-4">' + fieldsHtml + '</div>' +
+        '<div class="text-center"><span class="text-gray-500 text-sm">' + pp.advanced_label + '</span></div>';
     }
 
     document.getElementById('pricing-title').innerHTML = c.pricing.title.replace('Plan', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">Plan</span>');
