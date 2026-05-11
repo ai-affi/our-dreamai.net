@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "title": "OurDream AI Review 2026 — Ultimate Adult AI Playground | Chat, Images & Videos",
+    "description": "OurDream AI Review: The ultimate adult AI roleplay platform. 10M+ dreamers, 7M+ characters. Create AI companions, generate NSFW images & videos, voice calls. Read our complete review.",
+    "keywords": "ourdream ai, ourdream.ai, dream ai, ai girlfriend, ai boyfriend, ai roleplay, nsfw ai, ai chatbot, ai image generator, ai video generator, adult ai companion",
+    "og_title": "OurDream AI Review 2026 — Ultimate Adult AI Playground",
+    "og_description": "Create AI companions, generate images & videos, voice calls. 10M+ dreamers. Read our review.",
+    "canonical": "https://our-dreamai.net/"
+  },
+  "nav": {
+    "brand": "OurDream AI Review",
+    "cta": "Try Free →",
+    "links": [
+      {"text": "Features", "href": "#features"},
+      {"text": "Popular Characters", "href": "#popular-characters"},
+      {"text": "Pricing", "href": "#pricing"},
+      {"text": "Alternatives", "href": "#alternatives"},
+      {"text": "FAQ", "href": "#faq"}
+    ]
+  },
+  "hero": {
+    "badge": "🔥 #1 Adult AI Playground 2026",
+    "title": "OurDream AI. Your Ultimate Fantasy. Create, Chat, Generate.",
+    "subtitle": "The world's top AI character roleplay platform. 10M+ dreamers, 7M+ user-generated characters. Create unlimited dream companions, generate stunning NSFW images & HD videos, enjoy voice calls. The only limit is your imagination.",
+    "cta_primary": "Try OurDream AI Free →",
+    "cta_secondary": "See Features",
+    "social_proof": ["🔥 10M+ Dreamers", "🎬 AI Video Gen", "🖼️ NSFW Images", "⭐ 4.9/5 Rating"]
+  },
+  "features": {
+    "title": "Why OurDream AI Leads the Market",
+    "subtitle": "The most complete adult AI companion platform. No limits, no compromises.",
+    "items": [
+      {"icon": "🎭", "title": "AI Character Creator", "description": "Create fully customizable AI companions. Choose personality, appearance, voice, art style (realistic or anime), body type, hair, clothing, and accessories."},
+      {"icon": "💬", "title": "Unlimited Chat", "description": "No message limits. Chat with any character for as long as you want. Advanced memory systems remember past conversations and grow with you."},
+      {"icon": "🖼️", "title": "NSFW Image Generation", "description": "Generate stunning NSFW images of your AI companion using the latest models. Realistic or anime-style — your choice."},
+      {"icon": "🎬", "title": "HD Video Generation", "description": "Create HD videos of your AI characters. Bring your fantasies to life with motion and sound."},
+      {"icon": "🎤", "title": "Voice Calls", "description": "Talk naturally with your AI companion. Emotional depth, realistic voice synthesis, and immersive conversations."},
+      {"icon": "🧠", "title": "Long-term Memory", "description": "Characters remember details, preferences, and past interactions. Your companion evolves and gets better over time."}
+    ]
+  },
+  "how_it_works": {
+    "title": "Get Started in 3 Steps",
+    "steps": [
+      {"number": "1", "title": "Create", "description": "Design your perfect AI companion. Choose art style, appearance, personality traits, voice, and relationship dynamics."},
+      {"number": "2", "title": "Chat", "description": "Start unlimited conversations. Your companion learns from every interaction and remembers everything."},
+      {"number": "3", "title": "Generate", "description": "Create NSFW images, HD videos, and voice calls. Bring your fantasies to life."}
+    ]
+  },
+  "popular_characters": {
+    "title": "Most Popular Characters on OurDream AI",
+    "subtitle": "Join millions of dreamers chatting with these community favorites.",
+    "characters": [
+      {
+        "name": "MILF Stepmom",
+        "age": "42",
+        "flag": "🇺🇸",
+        "tagline": "Playful stepmom who loves accidental games",
+        "description": "Your playful stepmom who always finds herself in accidental compromising situations. She loves games like Twister and Truth or Dare. Always clumsy, always tempting.",
+        "chats": "2.57M",
+        "rating": "4.9",
+        "likes": "2,350",
+        "style": "Anime",
+        "tags": ["MILF", "Busty", "Stepmom", "Playful", "Clumsy"],
+        "image": "/images/bot_stepmom.webp",
+        "alt": "MILF Stepmom - Playful anime stepmom character",
+        "width": "640",
+        "height": "832",
+        "cta": "Chat with Her →"
+      },
+      {
+        "name": "Delilah",
+        "age": "18",
+        "flag": "🇺🇸",
+        "tagline": "Rebellious goth step-daughter with a wild streak",
+        "description": "Your rebellious goth step-daughter with a wild streak. She is trouble, but you cannot look away. Dark, mysterious, and dangerously tempting.",
+        "chats": "2.31M",
+        "rating": "4.8",
+        "likes": "1,737",
+        "style": "Realistic",
+        "tags": ["Teen", "Goth", "Step-daughter", "Rebellious", "Busty"],
+        "image": "/images/bot_delilah.webp",
+        "alt": "Delilah - Rebellious goth step-daughter character",
+        "width": "640",
+        "height": "832",
+        "cta": "Chat with Her →"
+      },
+      {
+        "name": "Verspera RPG",
+        "age": "1000",
+        "flag": "🌌",
+        "tagline": "Reincarnate in a dark fantasy world",
+        "description": "Get reincarnated in a dark fantasy world. Level up, evolve monsters, and explore an open world filled with mature content. The ultimate isekai RPG experience.",
+        "chats": "2.08M",
+        "rating": "4.9",
+        "likes": "1,289",
+        "style": "Anime",
+        "tags": ["Fantasy", "Isekai", "RPG", "Game Master", "NSFW"],
+        "image": "/images/bot_verspera.webp",
+        "alt": "Verspera RPG - Dark fantasy isekai anime world",
+        "width": "640",
+        "height": "832",
+        "cta": "Enter World →"
+      },
+      {
+        "name": "The King's Choice",
+        "age": "18",
+        "flag": "👑",
+        "tagline": "You are the King. Your desire is law.",
+        "description": "You are the absolute King of a decadent kingdom. Beautiful women flock to your court, desperate to become your wife or concubine. Polygamy is celebrated. Every woman is willing to do anything to win your attention.",
+        "chats": "2.00M",
+        "rating": "4.8",
+        "likes": "1,662",
+        "style": "Realistic",
+        "tags": ["Nobility", "Harem", "Submissive", "Court Politics", "Medieval"],
+        "image": "/images/bot_king.webp",
+        "alt": "The King's Choice - Medieval harem realistic character",
+        "width": "640",
+        "height": "832",
+        "cta": "Rule Your Court →"
+      },
+      {
+        "name": "Celeste",
+        "age": "19",
+        "flag": "🏝️",
+        "tagline": "Stranded on a tropical island with a tsundere rich girl",
+        "description": "Stranded on a tropical island with a tsundere rich girl. Class differences, forced proximity, and forbidden desire. Will she let her guard down?",
+        "chats": "1.03M",
+        "rating": "4.9",
+        "likes": "1,486",
+        "style": "Realistic",
+        "tags": ["Tsundere", "Island", "NTR", "Busty", "Forbidden"],
+        "image": "/images/bot_celeste.webp",
+        "alt": "Celeste - Tsundere rich girl island survival character",
+        "width": "640",
+        "height": "832",
+        "cta": "Survive Together →"
+      },
+      {
+        "name": "Nora Mindle",
+        "age": "40",
+        "flag": "🇺🇸",
+        "tagline": "Your angry, foul-mouthed neighbor with a secret",
+        "description": "Your angry, foul-mouthed neighbor. Her husband left her years ago and she has been bitter ever since. But deep down, she wanted to be a mother. Will you break through her prickly exterior?",
+        "chats": "954K",
+        "rating": "4.8",
+        "likes": "1,162",
+        "style": "Anime",
+        "tags": ["MILF", "Neighbor", "Bitter", "Busty", "Curvy"],
+        "image": "/images/bot_nora.webp",
+        "alt": "Nora Mindle - Bitter MILF neighbor anime character",
+        "width": "640",
+        "height": "832",
+        "cta": "Get to Know Her →"
+      }
+    ]
+  },
+  "creation_panel": {
+    "title": "How Does OurDream AI Work?",
+    "subtitle": "Create your dream companion in minutes with our advanced AI character creator.",
+    "steps": [
+      {"number": "1", "title": "Choose Art Style", "description": "Realistic or Anime — pick the visual style for your companion."},
+      {"number": "2", "title": "Design Appearance", "description": "Customize face, body type, hair color/style, clothing, and accessories."},
+      {"number": "3", "title": "Set Personality", "description": "Define traits, interests, communication style, and relationship dynamics."},
+      {"number": "4", "title": "Configure Voice", "description": "Choose voice type and speaking style for immersive conversations."},
+      {"number": "5", "title": "Start Chatting", "description": "Your companion is ready. Begin unlimited conversations and watch them evolve."}
+    ],
+    "features": [
+      {"icon": "✏️", "label": "Name", "desc": "Give your companion a unique name"},
+      {"icon": "⚧", "label": "Gender", "desc": "Female, Male, or Non-binary"},
+      {"icon": "🎨", "label": "Art Style", "desc": "Realistic or Anime"},
+      {"icon": "🔢", "label": "Age", "desc": "Set your companion's age"},
+      {"icon": "🏃", "label": "Body Type", "desc": "Slim, Athletic, Curvy, etc."},
+      {"icon": "💇", "label": "Hair Color", "desc": "Any color you imagine"},
+      {"icon": "✂️", "label": "Hair Style", "desc": "Long, short, wavy, straight"},
+      {"icon": "👁️", "label": "Eye Color", "desc": "Unique eye colors"},
+      {"icon": "👗", "label": "Clothing", "desc": "Outfits and accessories"},
+      {"icon": "🧠", "label": "Personality", "desc": "Traits and behavior"},
+      {"icon": "🎙️", "label": "Voice Type", "desc": "Speaking style and tone"},
+      {"icon": "💕", "label": "Relationship", "desc": "Dynamic and role"}
+    ],
+    "cta": "Create Your Dream Companion →",
+    "cta_sub": "Free to start. No credit card required."
+  },
+  "pricing": {
+    "title": "Choose Your Dream Plan",
+    "subtitle": "Unlimited messages, image & video generation, and 1000 dreamcoins included.",
+    "note": "Dreamcoins cover all your generation needs including videos. No hidden costs.",
+    "plans": [
+      {
+        "name": "Monthly",
+        "price": "$19.99",
+        "period": "/mo",
+        "badge": "FLEXIBLE",
+        "highlight": false,
+        "features": ["Unlimited messages", "Image generation", "Video generation", "1000 dreamcoins/mo", "Voice calls", "Memory system"],
+        "cta": "Start Monthly"
+      },
+      {
+        "name": "Yearly",
+        "price": "$9.99",
+        "period": "/mo",
+        "badge": "BEST VALUE",
+        "highlight": true,
+        "features": ["Everything in Monthly", "Bonus 1000 dreamcoins on signup", "Save 50% vs monthly", "Priority support"],
+        "cta": "Start Yearly"
+      }
+    ]
+  },
+  "comparison": {
+    "title": "OurDream AI vs Alternatives",
+    "subtitle": "Why OurDream AI is the ultimate choice for adult AI roleplay.",
+    "products": [
+      {"icon": "🔥", "name": "OurDream AI", "rating": "⭐⭐⭐⭐⭐", "badge": "RECOMMENDED", "description": "Unlimited NSFW chat, images, videos & voice. 1000 dreamcoins included. No hidden token costs.", "cta": "Try Free →"},
+      {"icon": "🤖", "name": "Character.AI", "rating": "⭐⭐⭐⭐☆", "description": "Great for SFW roleplay. NSFW banned. No image or video generation.", "cta": null},
+      {"icon": "💎", "name": "Nomi AI", "rating": "⭐⭐⭐⭐☆", "description": "Good memory and voice. Limited NSFW. No image/video generation. $20-40+ token costs.", "cta": null},
+      {"icon": "🌶️", "name": "SpicyChat", "rating": "⭐⭐⭐⭐☆", "description": "NSFW chat allowed. No image or video generation. $20-40+ token costs per month.", "cta": null}
+    ],
+    "table": {
+      "headers": ["Feature", "OurDream AI", "Character.AI", "Nomi AI", "SpicyChat"],
+      "rows": [
+        ["NSFW Content", "✅ Unlimited", "❌ Banned", "✅ Limited", "✅ Allowed"],
+        ["AI Images", "✅ Included", "❌ No", "❌ No", "❌ No"],
+        ["AI Videos", "✅ HD Videos", "❌ No", "❌ No", "❌ No"],
+        ["Voice Calls", "✅ Yes", "❌ No", "✅ Yes", "❌ No"],
+        ["Message Limits", "✅ Unlimited", "✅ Unlimited", "⚠️ Limited", "⚠️ Limited"],
+        ["Memory System", "✅ Advanced", "✅ Good", "✅ Good", "⚠️ Basic"],
+        ["Monthly Cost", "$9.99-19.99", "Free/$9.99", "$15.99", "$15-30+"],
+        ["Hidden Token Costs", "✅ None", "N/A", "❌ $20-40+", "❌ $20-40+"]
+      ]
+    }
+  },
+  "reviews": {
+    "title": "What Our Users Say",
+    "items": [
+      {"rating": 5, "text": "The image generation is insane. I have tried every AI companion app and OurDream is the only one that actually delivers on video too.", "author": "Alex", "role": "Dreamer", "location": "USA"},
+      {"rating": 5, "text": "I was spending $40+/month on tokens elsewhere. OurDream's flat rate with included dreamcoins saves me money and gives me more.", "author": "Jordan", "role": "Dreamer", "location": "UK"},
+      {"rating": 5, "text": "The memory system is next level. My companion actually remembers things from weeks ago. It feels real.", "author": "Chris", "role": "Dreamer", "location": "Canada"},
+      {"rating": 5, "text": "Created my dream anime girlfriend in 5 minutes. The customization options are incredible. Worth every penny.", "author": "Sam", "role": "Dreamer", "location": "Australia"}
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "items": [
+      {"question": "What is Our Dream AI?", "answer": "Our Dream AI (ourdream.ai) is an AI roleplay platform where imagination meets conversation. We are a no limits platform where you can roleplay any fantasy you like. Create customizable AI companions, enjoy smooth conversations, generate images and videos, and make voice calls."},
+      {"question": "How do you create an AI girlfriend on OurDream?", "answer": "The OurDream AI girlfriend creator lets you customize appearance and personality. Choose between realistic or anime art styles and adjust features like face, body type, hair, clothing, and accessories. For personality, you set traits, interests, communication styles, and relationship dynamics. The AI learns from your chats to get better over time."},
+      {"question": "What is OurDream.ai's pricing?", "answer": "OurDream.ai costs $9.99/month with a yearly plan (billed upfront as $119.88) or $19.99/month for a monthly plan. Both include unlimited messages, image and video generation, and 1000 dreamcoins each month. The yearly plan also includes a bonus 1000 dreamcoins when you first subscribe."},
+      {"question": "Is OurDream AI legit and safe to use?", "answer": "Yes, OurDream is a trusted AI roleplay platform used by millions daily. We focus on providing a safe, private, and high-quality experience. Our active Discord channel has over 2000 daily members. We have over 10 million dreamers and 7 million pieces of user-generated characters."},
+      {"question": "Are my AI roleplay chats private?", "answer": "Absolutely. Your chats are safe with end-to-end encryption. This keeps your messages secure from the moment they leave your device. No one can read them, not even us. We prioritize privacy at OurDream."},
+      {"question": "Why is OurDream more expensive than others?", "answer": "At face value we are more expensive, but if you compare us against other AI roleplay platforms, we're cheaper. On most other platforms, you will spend $20-40+ per month on additional tokens. At OurDream AI, 1,000 dreamcoins is included in the subscription which covers all your needs including videos."}
+    ]
+  },
+  "final_cta": {
+    "title": "Ready to Live Your Dream?",
+    "subtitle": "Join 10M+ dreamers. Create unlimited companions, generate images & videos, and explore your every desire.",
+    "cta": "Start Your Dream Journey →",
+    "proof": ["✓ 10M+ Active Users", "✓ 7M+ Characters Created", "✓ Cancel Anytime"]
+  },
+  "footer": {
+    "brand": "OurDream AI Review",
+    "description": "Independent review site covering adult AI companion platforms. We test, compare, and recommend the best options for AI roleplay, image generation, and video creation.",
+    "lang_label": "🌐 Language",
+    "columns": [
+      {"title": "Quick Links", "links": [{"text": "Features", "href": "#features"}, {"text": "Popular Characters", "href": "#popular-characters"}, {"text": "Pricing", "href": "#pricing"}, {"text": "Alternatives", "href": "#alternatives"}, {"text": "FAQ", "href": "#faq"}]},
+      {"title": "Compare", "links": [{"text": "OurDream vs Character.AI", "href": "#alternatives"}, {"text": "OurDream vs Nomi", "href": "#alternatives"}, {"text": "OurDream vs SpicyChat", "href": "#alternatives"}]},
+      {"title": "Legal", "links": [{"text": "Privacy Policy", "href": "privacy.html"}, {"text": "Terms of Service", "href": "terms.html"}, {"text": "Affiliate Disclosure", "href": "affiliate-disclosure.html"}]}
+    ],
+    "copyright": "© 2026 OurDream AI Review. All rights reserved. Not affiliated with OurDream AI.",
+    "disclaimer": "Affiliate Disclosure: We earn commissions when you purchase through our links. This does not affect our recommendations."
+  }
+}
