@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="OurDream AI Review">
+  <meta name="keywords" content="ourdream ai, ai girlfriend, ai chatbot">
+  <meta property="og:title" content="OurDream AI Review">
+  <meta property="og:description" content="OurDream AI Review">
+  <meta name="twitter:title" content="OurDream AI Review">
+  <meta name="twitter:description" content="OurDream AI Review">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+  <link rel="preconnect" href="https://cdn.tailwindcss.com">
+  <link rel="dns-prefetch" href="https://ourdream.ai">
+  <link rel="canonical" href="https://our-dreamai.net/">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preload" as="image" href="/images/hero_banner.webp" type="image/webp" fetchpriority="high">
+  <style>
+    :root{--primary:#EC4899;--secondary:#8B5CF6;--accent:#F472B6;--bg-dark:#0A0A0F;--bg-card:#13131A;--text-primary:#fff;--text-secondary:#9CA3AF;--border:#1F1F2E}
+    body{background:var(--bg-dark);color:var(--text-primary);font-family:'Inter',system-ui,-apple-system,sans-serif}
+    .gradient-bg{background:linear-gradient(135deg,#0A0A0F 0%,#1a0a1a 50%,#0A0A0F 100%)}
+    .gradient-bg-2{background:linear-gradient(135deg,#1a0a1a 0%,#0A0A0F 100%)}
+    .accent-color{color:var(--primary)}
+    .accent-bg{background:var(--primary)}
+    .accent-border{border-color:var(--primary)}
+    .cta-pulse{animation:pulse 2s infinite}
+    @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(236,72,153,.4)}70%{box-shadow:0 0 0 20px rgba(236,72,153,0)}}
+    .glow-text{text-shadow:0 0 30px rgba(236,72,153,.3)}
+    .card-hover{transition:all .3s ease}
+    .card-hover:hover{transform:translateY(-5px);box-shadow:0 20px 40px rgba(236,72,153,.15)}
+    .star-rating{color:#fbbf24}
+    .review-card{background:rgba(255,255,255,.03);backdrop-filter:blur(10px);border:1px solid var(--border)}
+    .char-card{transition:all .3s ease;overflow:hidden;border-radius:16px;background:var(--bg-card);border:1px solid var(--border)}
+    .char-card:hover{transform:translateY(-8px);box-shadow:0 20px 40px rgba(236,72,153,.2)}
+    .char-img{aspect-ratio:640/832;width:100%;object-fit:cover;object-position:top}
+    .hero-section{display:flex;align-items:center;gap:2rem;max-width:1200px;margin:0 auto;padding:4rem 1rem}
+    .hero-banner{flex:0 0 45%;max-width:500px;border-radius:16px;overflow:hidden;box-shadow:0 20px 60px rgba(236,72,153,.2)}
+    .hero-banner img{width:100%;height:auto;display:block}
+    .hero-text{flex:1;text-align:left}
+    .orb{position:absolute;border-radius:50%;filter:blur(80px);opacity:.15;pointer-events:none;z-index:-1;max-width:100%;max-height:100%}
+    .orb-1{width:300px;height:300px;background:var(--primary);top:-50px;right:-50px}
+    .orb-2{width:200px;height:200px;background:var(--secondary);bottom:-30px;left:-30px}
+    @media(max-width:768px){.orb{display:none}}
+    html,body{overflow-x:hidden;word-break:break-word;max-width:100vw}
+    *{box-sizing:border-box}
+    table{table-layout:fixed;width:100%;max-width:100%}
+    td,th{word-break:break-word;overflow-wrap:break-word;max-width:100%}
+    .pricing-card{max-width:100%;overflow:hidden}
+    .pricing-card .absolute{position:relative;top:auto;left:auto;transform:none;margin-bottom:.5rem;display:inline-block}
+    @media(max-width:768px){.hero-section{flex-direction:column;text-align:center;padding:2rem 1rem}.hero-banner{flex:0 0 auto;width:100%;max-width:400px;margin:0 auto}.hero-text{text-align:center}.char-card{max-width:100%}#pricing-grid{grid-template-columns:1fr!important}#comp-table{font-size:.75rem}td,th{padding:.5rem .25rem}}
+    .feature-card{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;transition:all .3s}
+    .feature-card:hover{border-color:var(--primary);box-shadow:0 0 20px rgba(236,72,153,.1)}
+    .pricing-card{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;position:relative}
+    .pricing-highlight{border:2px solid var(--primary);box-shadow:0 0 30px rgba(236,72,153,.15)}
+    .lang-link{display:inline-block;padding:.25rem .75rem;border-radius:9999px;font-size:.875rem;text-decoration:none;transition:all .2s}
+    .lang-selector{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;align-items:center}
+    .lang-link{background:rgba(255,255,255,.05);color:#888;border:1px solid rgba(255,255,255,.1)}
+    .lang-link:hover{background:rgba(236,72,153,.15);color:var(--primary);border-color:rgba(236,72,153,.3)}
+    .lang-link.active{background:linear-gradient(135deg,rgba(236,72,153,.2),rgba(139,92,246,.2));color:#fff;border-color:rgba(236,72,153,.5);box-shadow:0 0 10px rgba(236,72,153,.2)}
+    .lang-label{display:block;text-align:center;font-size:.75rem;color:#666;margin-bottom:.5rem}
+  </style>
+</head>
+<body class="font-sans">
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <nav class="bg-gray-900/80 backdrop-blur-md border-b border-gray-800 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <div class="flex-shrink-0 flex items-center">
+          <span id="nav-brand" class="text-2xl font-bold bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent"></span>
+        </div>
+        <div id="nav-links" class="hidden md:flex space-x-6 text-sm"></div>
+        <a href="/go/ourdream" class="affiliate-link inline-flex items-center px-4 py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-semibold rounded-lg hover:from-pink-600 hover:to-purple-600 transition text-sm" rel="nofollow noreferrer noopener" id="nav-cta"></a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="gradient-bg relative overflow-hidden">
+    <div class="hero-section">
+      <div class="hero-banner">
+        <img src="/images/hero_banner.webp" alt="" fetchpriority="high" decoding="async" width="817" height="687" id="hero-img" />
+      </div>
+      <div class="hero-text">
+        <div class="inline-block mb-4 px-4 py-1 rounded-full bg-pink-500/20 border border-pink-500/40 text-pink-300 text-sm font-medium" id="hero-badge"></div>
+        <h1 class="text-4xl lg:text-6xl font-extrabold mb-6 leading-tight glow-text" id="hero-title"></h1>
+        <p class="text-lg lg:text-xl mb-8 text-gray-400 max-w-xl leading-relaxed" id="hero-subtitle"></p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-start mb-6">
+          <a href="/go/ourdream" class="affiliate-link cta-pulse inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-lg rounded-xl hover:from-pink-600 hover:to-purple-600 transition transform hover:scale-105 shadow-lg shadow-pink-500/30" rel="nofollow noreferrer noopener" id="hero-cta-primary"></a>
+          <a href="#features" class="inline-flex items-center justify-center px-8 py-4 border-2 border-pink-500/50 text-pink-300 font-bold text-lg rounded-xl hover:bg-pink-500/10 transition" id="hero-cta-secondary"></a>
+        </div>
+        <div class="flex flex-col sm:flex-row items-start gap-4 text-sm text-gray-500" id="hero-proof"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="py-20 gradient-bg-2">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-center" id="features-title"></h2>
+      <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto" id="features-subtitle"></p>
+      <div id="features-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-900">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-12 text-center" id="hiw-title"></h2>
+      <div id="hiw-grid" class="grid md:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <section id="popular-characters" class="py-20 gradient-bg-2">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-center" id="chars-title"></h2>
+      <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto" id="chars-subtitle"></p>
+      <div id="chars-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    </div>
+  </section>
+
+  <section id="creation-panel" class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-center" id="creation-title"></h2>
+      <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto" id="creation-subtitle"></p>
+      
+      <!-- Wizard Steps -->
+      <div id="wizard-container" class="mb-12"></div>
+      
+      <!-- Personality Panel -->
+      <div id="personality-panel" class="bg-gray-950 border border-gray-800 rounded-2xl p-6 mb-12"></div>
+      
+      <div class="text-center">
+        <a href="/go/ourdream" class="affiliate-link cta-pulse inline-flex items-center justify-center px-10 py-4 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-lg rounded-xl hover:from-pink-600 hover:to-purple-600 transition transform hover:scale-105 shadow-lg shadow-pink-500/30" rel="nofollow noreferrer noopener" id="creation-cta"></a>
+        <p class="mt-3 text-gray-500 text-sm" id="creation-cta-sub"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="py-20 gradient-bg-2">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-center" id="pricing-title"></h2>
+      <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto" id="pricing-subtitle"></p>
+      <div id="pricing-grid" class="grid md:grid-cols-2 gap-6 max-w-3xl mx-auto"></div>
+      <p class="text-center text-gray-600 text-sm mt-8" id="pricing-note"></p>
+    </div>
+  </section>
+
+  <section id="alternatives" class="py-20 gradient-bg-2">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-4 text-center" id="comp-title"></h2>
+      <p class="text-center text-gray-500 mb-12 max-w-2xl mx-auto" id="comp-subtitle"></p>
+      <div id="comp-cards" class="grid md:grid-cols-4 gap-6 mb-12"></div>
+      <div class="overflow-x-auto">
+        <table class="w-full text-sm" id="comp-table"></table>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-900">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-12 text-center" id="reviews-title"></h2>
+      <div id="reviews-grid" class="grid md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+    </div>
+  </section>
+
+  <section id="faq" class="py-20 gradient-bg-2">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl lg:text-4xl font-bold mb-12 text-center" id="faq-title"></h2>
+      <div id="faq-list" class="space-y-4"></div>
+    </div>
+  </section>
+
+  <section class="py-20 gradient-bg relative overflow-hidden">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-4xl lg:text-5xl font-bold mb-6 glow-text" id="final-title"></h2>
+      <p class="text-xl text-gray-400 mb-8 max-w-2xl mx-auto" id="final-subtitle"></p>
+      <a href="/go/ourdream" class="affiliate-link cta-pulse inline-flex items-center justify-center px-12 py-5 bg-gradient-to-r from-pink-500 to-purple-500 text-white font-bold text-xl rounded-xl hover:from-pink-600 hover:to-purple-600 transition transform hover:scale-105 shadow-lg shadow-pink-500/30" rel="nofollow noreferrer noopener" id="final-cta"></a>
+      <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-6 text-sm text-gray-500" id="final-proof"></div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-950 border-t border-gray-800 py-12">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div id="footer-grid" class="grid md:grid-cols-3 gap-8 mb-8"></div>
+      
+      <!-- Language Selector -->
+      <div class="border-t border-gray-800 pt-8 mb-8">
+        <span class="lang-label" id="lang-label">🌐 Language</span>
+        <div class="lang-selector" id="lang-selector"></div>
+      </div>
+      
+      <div class="border-t border-gray-800 pt-8 text-center text-sm text-gray-600">
+        <p id="footer-copy"></p>
+        <p class="mt-2" id="footer-disc"></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+fetch('content.json')
+  .then(r => r.json())
+  .then(c => {
+    document.title = c.meta.title;
+    document.querySelector('meta[name="description"]').content = c.meta.description;
+    document.querySelector('meta[name="keywords"]').content = c.meta.keywords;
+    document.querySelector('meta[property="og:title"]').content = c.meta.og_title;
+    document.querySelector('meta[property="og:description"]').content = c.meta.og_description;
+    document.querySelector('meta[name="twitter:title"]').content = c.meta.og_title;
+    document.querySelector('meta[name="twitter:description"]').content = c.meta.og_description;
+
+    document.getElementById('nav-brand').textContent = c.nav.brand;
+    document.getElementById('nav-cta').textContent = c.nav.cta;
+    const navLinks = document.getElementById('nav-links');
+    c.nav.links.forEach(l => {
+      const a = document.createElement('a');
+      a.href = l.href;
+      a.className = 'text-gray-400 hover:text-pink-400 transition';
+      a.textContent = l.text;
+      navLinks.appendChild(a);
+    });
+
+    document.getElementById('hero-img').alt = c.hero.subtitle.slice(0, 80);
+    document.getElementById('hero-badge').textContent = c.hero.badge;
+    document.getElementById('hero-title').textContent = c.hero.title;
+    document.getElementById('hero-subtitle').textContent = c.hero.subtitle;
+    document.getElementById('hero-cta-primary').textContent = c.hero.cta_primary;
+    document.getElementById('hero-cta-secondary').textContent = c.hero.cta_secondary;
+    const heroProof = document.getElementById('hero-proof');
+    c.hero.social_proof.forEach(p => {
+      const s = document.createElement('span');
+      s.className = 'flex items-center gap-1';
+      s.innerHTML = '<span class="text-green-400">✓</span> ' + p;
+      heroProof.appendChild(s);
+    });
+
+    document.getElementById('features-title').innerHTML = c.features.title.replace('Leads', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">Leads</span>');
+    document.getElementById('features-subtitle').textContent = c.features.subtitle;
+    const featGrid = document.getElementById('features-grid');
+    c.features.items.forEach(f => {
+      featGrid.innerHTML += '<div class="feature-card"><div class="text-3xl mb-3">' + f.icon + '</div><h3 class="font-bold text-white mb-2">' + f.title + '</h3><p class="text-gray-500 text-sm">' + f.description + '</p></div>';
+    });
+
+    document.getElementById('hiw-title').innerHTML = c.how_it_works.title.replace('3 Steps', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">3 Steps</span>');
+    const hiwGrid = document.getElementById('hiw-grid');
+    c.how_it_works.steps.forEach(s => {
+      hiwGrid.innerHTML += '<div class="text-center"><div class="w-16 h-16 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 flex items-center justify-center text-2xl font-bold mx-auto mb-4">' + s.number + '</div><h3 class="text-xl font-bold text-white mb-2">' + s.title + '</h3><p class="text-gray-500">' + s.description + '</p></div>';
+    });
+
+    document.getElementById('chars-title').innerHTML = c.popular_characters.title.replace('OurDream AI', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">OurDream AI</span>');
+    document.getElementById('chars-subtitle').textContent = c.popular_characters.subtitle;
+    const charsGrid = document.getElementById('chars-grid');
+    c.popular_characters.characters.forEach(p => {
+      const tags = p.tags.map(t => '<span class="inline-block px-2 py-0.5 bg-pink-500/10 text-pink-400 text-xs rounded-full mr-1 mb-1">' + t + '</span>').join('');
+      charsGrid.innerHTML += '<div class="char-card"><div class="overflow-hidden bg-gradient-to-br from-pink-900/30 to-purple-900/30 flex items-center justify-center"><img src="' + p.image + '" alt="' + p.alt + '" class="char-img" loading="lazy" decoding="async" width="' + p.width + '" height="' + p.height + '" /></div><div class="p-5"><div class="flex items-center gap-2 mb-1"><h3 class="font-bold text-lg text-white">' + p.name + '</h3><span class="text-gray-500 text-sm">' + p.age + '</span><span class="text-lg">' + p.flag + '</span></div><p class="text-pink-400 text-sm mb-2">' + p.tagline + '</p><p class="text-gray-500 text-sm mb-3 line-clamp-3">' + p.description + '</p><div class="flex flex-wrap mb-3">' + tags + '</div><div class="flex justify-between text-sm text-gray-600 mb-4"><span>💬 ' + p.chats + ' chats</span><span>❤️ ' + p.likes + ' likes</span></div><a href="/go/ourdream" class="affiliate-link block text-center py-2 bg-gradient-to-r from-pink-500 to-purple-500 text-white text-sm font-semibold rounded-lg hover:from-pink-600 hover:to-purple-600 transition" rel="nofollow noreferrer noopener">' + p.cta + '</a></div></div>';
+    });
+
+    // Creation Panel section - Wizard
+    if (c.creation_panel) {
+      document.getElementById('creation-title').innerHTML = c.creation_panel.title.replace('OurDream AI', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">OurDream AI</span>');
+      document.getElementById('creation-subtitle').textContent = c.creation_panel.subtitle;
+      document.getElementById('creation-cta').textContent = c.creation_panel.cta;
+      document.getElementById('creation-cta-sub').textContent = c.creation_panel.cta_sub;
+      
+      // Wizard Steps
+      const wizardDiv = document.getElementById('wizard-container');
+      c.creation_panel.wizard_steps.forEach((step, idx) => {
+        const isLast = idx === c.creation_panel.wizard_steps.length - 1;
+        const optionsHtml = step.options.map(opt => {
+          const isPremium = opt.includes('PREMIUM');
+          return '<button class="relative px-4 py-2 rounded-lg border border-gray-700 bg-gray-900 text-gray-300 text-sm hover:border-pink-500 hover:text-pink-400 transition ' + (isPremium ? 'border-yellow-600/50 text-yellow-500' : '') + '"' + (isPremium ? ' disabled' : '') + '>' + opt + (isPremium ? ' <span class="absolute -top-2 -right-2 bg-yellow-500 text-black text-[10px] font-bold px-1.5 py-0.5 rounded">PREMIUM</span>' : '') + '</button>';
+        }).join('');
+        
+        wizardDiv.innerHTML += '<div class="mb-8">' +
+          '<div class="flex items-center gap-3 mb-4">' +
+            '<div class="w-8 h-8 rounded-full bg-gradient-to-r from-pink-500 to-purple-500 flex items-center justify-center text-sm font-bold">' + step.step + '</div>' +
+            '<div><h4 class="font-bold text-white">' + step.title + '</h4><p class="text-gray-500 text-sm">' + step.subtitle + '</p></div>' +
+          '</div>' +
+          '<div class="flex flex-wrap gap-2 ml-11">' + optionsHtml + '</div>' +
+          (isLast ? '' : '<div class="ml-11 mt-3"><span class="text-pink-400 text-sm">' + step.next_cta + '</span></div>') +
+        '</div>';
+      });
+      
+      // Personality Panel
+      const panelDiv = document.getElementById('personality-panel');
+      const pp = c.creation_panel.personality_panel;
+      let fieldsHtml = pp.fields.map(f => {
+        return '<div class="bg-gray-900 rounded-lg p-4 border border-gray-800">' +
+          '<div class="flex items-center gap-2 mb-2"><span class="text-lg">' + f.icon + '</span><span class="text-sm font-semibold text-white">' + f.label + '</span></div>' +
+          '<div class="text-sm text-pink-400">' + f.example + '</div>' +
+        '</div>';
+      }).join('');
+      
+      panelDiv.innerHTML = '<h3 class="text-lg font-bold text-white mb-4">' + pp.title + '</h3>' +
+        '<div class="grid grid-cols-2 md:grid-cols-3 gap-3 mb-4">' + fieldsHtml + '</div>' +
+        '<div class="text-center"><span class="text-gray-500 text-sm">' + pp.advanced_label + '</span></div>';
+    }
+
+    document.getElementById('pricing-title').innerHTML = c.pricing.title.replace('Plan', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">Plan</span>');
+    document.getElementById('pricing-subtitle').textContent = c.pricing.subtitle;
+    document.getElementById('pricing-note').textContent = c.pricing.note;
+    const priceGrid = document.getElementById('pricing-grid');
+    c.pricing.plans.forEach(p => {
+      const border = p.highlight ? 'pricing-highlight' : '';
+      const badge = p.badge ? '<div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white text-xs font-bold px-3 py-1 rounded-full">' + p.badge + '</div>' : '';
+      const btnClass = p.highlight ? 'bg-gradient-to-r from-pink-500 to-purple-500 hover:from-pink-600 hover:to-purple-600' : 'bg-gray-800 hover:bg-gray-700';
+      const feats = p.features.map(f => '<li class="flex items-center gap-2 text-gray-400"><span class="text-green-400">✓</span> ' + f + '</li>').join('');
+      priceGrid.innerHTML += '<div class="pricing-card ' + border + '">' + badge + '<h3 class="text-lg font-bold text-white mb-1">' + p.name + '</h3><div class="text-3xl font-bold text-white mb-1">' + p.price + '<span class="text-sm text-gray-500"> ' + p.period + '</span></div><ul class="space-y-2 mb-6 text-sm mt-4">' + feats + '</ul><a href="/go/ourdream" class="affiliate-link block text-center py-2 ' + btnClass + ' text-white font-semibold rounded-lg transition text-sm" rel="nofollow noreferrer noopener">' + p.cta + '</a></div>';
+    });
+
+    document.getElementById('comp-title').innerHTML = c.comparison.title.replace('Alternatives', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">Alternatives</span>');
+    document.getElementById('comp-subtitle').textContent = c.comparison.subtitle;
+    const compCards = document.getElementById('comp-cards');
+    c.comparison.products.forEach(p => {
+      const border = p.badge ? 'border-2 border-pink-500 relative' : 'border border-gray-800 card-hover';
+      const badge = p.badge ? '<div class="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-pink-500 text-white text-xs font-bold px-3 py-1 rounded-full">' + p.badge + '</div>' : '';
+      const cta = p.cta ? '<a href="/go/ourdream" class="affiliate-link block text-center py-2 bg-pink-500 text-white text-sm font-semibold rounded-lg hover:bg-pink-600 transition" rel="nofollow noreferrer noopener">' + p.cta + '</a>' : '';
+      compCards.innerHTML += '<div class="bg-gray-900 rounded-xl p-6 ' + border + '">' + badge + '<div class="text-3xl mb-3">' + p.icon + '</div><h3 class="font-bold text-white mb-1">' + p.name + '</h3><div class="star-rating mb-2">' + p.rating + '</div><p class="text-gray-500 text-xs mb-4">' + p.description + '</p>' + cta + '</div>';
+    });
+
+    const compTable = document.getElementById('comp-table');
+    let thead = '<thead><tr class="border-b border-gray-800">';
+    c.comparison.table.headers.forEach((h, i) => {
+      const cls = i === 0 ? 'text-left' : 'text-center';
+      const col = i === 1 ? ' text-pink-400 font-bold' : (i === 0 ? ' text-gray-500' : ' text-gray-500');
+      thead += '<th class="' + cls + ' py-3 px-4' + col + '">' + h + '</th>';
+    });
+    thead += '</tr></thead>';
+    let tbody = '<tbody>';
+    c.comparison.table.rows.forEach((row, ri) => {
+      const bg = ri % 2 === 1 ? ' bg-pink-500/5' : '';
+      tbody += '<tr class="border-b border-gray-900' + bg + '">';
+      row.forEach((cell, ci) => {
+        const cls = ci === 0 ? 'text-left' : 'text-center';
+        const col = cell.includes('✅') ? ' text-green-400' : (cell.includes('❌') ? ' text-red-400' : (ci === 0 && ri % 2 === 1 ? ' text-white font-semibold' : ' text-gray-400'));
+        tbody += '<td class="' + cls + ' py-3 px-4' + col + '">' + cell + '</td>';
+      });
+      tbody += '</tr>';
+    });
+    tbody += '</tbody>';
+    compTable.innerHTML = thead + tbody;
+
+    document.getElementById('reviews-title').innerHTML = c.reviews.title.replace('Users Say', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">Users Say</span>');
+    const revGrid = document.getElementById('reviews-grid');
+    c.reviews.items.forEach(r => {
+      const stars = '⭐'.repeat(r.rating) + '☆'.repeat(5 - r.rating);
+      revGrid.innerHTML += '<div class="review-card rounded-xl p-6"><div class="star-rating mb-3">' + stars + '</div><p class="text-gray-400 text-sm mb-4">"' + r.text + '"</p><div class="text-sm"><span class="text-white font-semibold">' + r.author + '</span><span class="text-gray-600"> · ' + r.role + ', ' + r.location + '</span></div></div>';
+    });
+
+    document.getElementById('faq-title').innerHTML = c.faq.title.replace('Questions', '<span class="bg-gradient-to-r from-pink-400 to-purple-500 bg-clip-text text-transparent">Questions</span>');
+    const faqList = document.getElementById('faq-list');
+    c.faq.items.forEach(f => {
+      faqList.innerHTML += '<div class="bg-gray-900 rounded-xl p-6 border border-gray-800"><h3 class="font-bold text-white mb-2">' + f.question + '</h3><p class="text-gray-500 text-sm">' + f.answer + '</p></div>';
+    });
+
+    document.getElementById('final-title').textContent = c.final_cta.title;
+    document.getElementById('final-subtitle').textContent = c.final_cta.subtitle;
+    document.getElementById('final-cta').textContent = c.final_cta.cta;
+    const finalProof = document.getElementById('final-proof');
+    c.final_cta.proof.forEach(p => {
+      finalProof.innerHTML += '<span class="flex items-center gap-1"><span class="text-green-400">✓</span> ' + p + '</span>';
+    });
+
+    const footGrid = document.getElementById('footer-grid');
+    footGrid.innerHTML = '<div><h4 class="text-white font-bold mb-4">' + c.footer.brand + '</h4><p class="text-gray-500 text-sm">' + c.footer.description + '</p></div>';
+    c.footer.columns.forEach(col => {
+      let links = col.links.map(l => '<li><a href="' + l.href + '" class="hover:text-pink-400 transition">' + l.text + '</a></li>').join('');
+      footGrid.innerHTML += '<div><h4 class="text-white font-bold mb-4">' + col.title + '</h4><ul class="space-y-2 text-sm text-gray-500">' + links + '</ul></div>';
+    });
+    document.getElementById('footer-copy').textContent = c.footer.copyright;
+    document.getElementById('footer-disc').textContent = c.footer.disclaimer;
+
+    // Language Selector
+    const langSelector = document.getElementById('lang-selector');
+    const langLabel = document.getElementById('lang-label');
+    if (c.footer.lang_label) langLabel.textContent = c.footer.lang_label;
+    
+    const langs = [
+      {code:'en', flag:'🇺🇸', name:'English', href:'/'},
+      {code:'fr', flag:'🇫🇷', name:'Français', href:'/fr/'},
+      {code:'es', flag:'🇲🇽', name:'Español', href:'/es-mx/'},
+      {code:'pt', flag:'🇧🇷', name:'Português', href:'/pt-br/'},
+      {code:'it', flag:'🇮🇹', name:'Italiano', href:'/it/'},
+      {code:'de', flag:'🇩🇪', name:'Deutsch', href:'/de/'},
+      {code:'nl', flag:'🇳🇱', name:'Nederlands', href:'/nl/'},
+      {code:'pl', flag:'🇵🇱', name:'Polski', href:'/pl/'},
+      {code:'ru', flag:'🇷🇺', name:'Русский', href:'/ru/'},
+      {code:'tr', flag:'🇹🇷', name:'Türkçe', href:'/tr/'},
+      {code:'hi', flag:'🇮🇳', name:'हिन्दी', href:'/hi/'},
+      {code:'ja', flag:'🇯🇵', name:'日本語', href:'/jp/'},
+      {code:'ko', flag:'🇰🇷', name:'한국어', href:'/kr/'},
+      {code:'ar', flag:'🇸🇦', name:'العربية', href:'/ar/'}
+    ];
+    
+    const currentPath = window.location.pathname;
+    let currentLang = 'en';
+    if (currentPath.startsWith('/fr/')) currentLang = 'fr';
+    else if (currentPath.startsWith('/es-mx/')) currentLang = 'es';
+    else if (currentPath.startsWith('/pt-br/')) currentLang = 'pt';
+    else if (currentPath.startsWith('/it/')) currentLang = 'it';
+    else if (currentPath.startsWith('/de/')) currentLang = 'de';
+    else if (currentPath.startsWith('/nl/')) currentLang = 'nl';
+    else if (currentPath.startsWith('/pl/')) currentLang = 'pl';
+    else if (currentPath.startsWith('/ru/')) currentLang = 'ru';
+    else if (currentPath.startsWith('/tr/')) currentLang = 'tr';
+    else if (currentPath.startsWith('/hi/')) currentLang = 'hi';
+    else if (currentPath.startsWith('/jp/')) currentLang = 'ja';
+    else if (currentPath.startsWith('/kr/')) currentLang = 'ko';
+    else if (currentPath.startsWith('/ar/')) currentLang = 'ar';
+    
+    langs.forEach(l => {
+      const a = document.createElement('a');
+      a.href = l.href;
+      a.className = 'lang-link' + (l.code === currentLang ? ' active' : '');
+      a.textContent = l.flag + ' ' + l.name;
+      a.title = l.name;
+      langSelector.appendChild(a);
+    });
+  });
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "OurDream AI",
+    "applicationCategory": "EntertainmentApplication",
+    "operatingSystem": "Any",
+    "offers": {"@type": "Offer", "price": "9.99", "priceCurrency": "USD", "description": "Yearly plan available"},
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "10000000"},
+    "description": "OurDream AI: Create AI companions, generate NSFW images and videos, voice calls. 10M+ dreamers.",
+    "url": "https://our-dreamai.net/",
+    "image": "https://our-dreamai.net/images/og_image.webp"
+  }
+  </script>
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "Organization", "name": "OurDream AI Review", "url": "https://our-dreamai.net", "logo": "https://our-dreamai.net/favicon.svg"}
+  </script>
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite", "name": "OurDream AI Review", "url": "https://our-dreamai.net", "potentialAction": {"@type": "SearchAction", "target": "https://our-dreamai.net/?q={search_term_string}", "query-input": "required name=search_term_string"}}
+  </script>
+</body>
+</html>
